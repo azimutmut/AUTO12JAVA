@@ -1,11 +1,11 @@
-package task2_FiveTabs;
+package lesson15.task2_FiveTabs;
 
-import io.github.bonigarcia.wdm.WebDriverManager;
-import org.openqa.selenium.By;
-import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.WindowType;
-import org.openqa.selenium.chrome.ChromeDriver;
-import utils.driver.consts.URL;
+    import io.github.bonigarcia.wdm.WebDriverManager;
+    import org.openqa.selenium.By;
+    import org.openqa.selenium.WebDriver;
+    import org.openqa.selenium.WindowType;
+    import org.openqa.selenium.chrome.ChromeDriver;
+    import utils.driver.consts.URL;
 
 public class fiveTabs {
     public static void main(String[] args) throws InterruptedException {
@@ -56,7 +56,7 @@ public class fiveTabs {
             }
         }
         Thread.sleep(1000);
-
+        driver.quit();
     }
 }
 

@@ -1,4 +1,4 @@
-package lesson15.testcases.PageRegistration;
+package lesson15.task1.PageRegistration;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
 import org.openqa.selenium.By;
@@ -24,6 +24,7 @@ public class registration {
 
         Thread.sleep(1000);
         driver.findElement(By.cssSelector("button[type='submit']")).click();
+        driver.quit();
 
     }
 }

@@ -8,6 +8,7 @@ public enum URL {
     W3("https://www.w3schools.com/"),
 
     SPEED("https://www.clickspeedtester.com/click-counter/"),
+    LOGIN("https://qa-course-01.andersenlab.com/login"),
 
     LAB("https://andersenlab.com/");
     private String url;
