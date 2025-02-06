@@ -1,33 +1,26 @@
-package lesson16.task1;
+package lesson16.task2;
 
-import org.testng.annotations.AfterClass;
-import org.testng.annotations.AfterMethod;
 import org.testng.annotations.Test;
 
 public class Groups {
     @Test(groups = {"first"},priority = 1)
     public void one() {
-
     }
 
     @Test(groups = {"second"}, priority = 5)
     public void two() {
-
     }
 
     @Test(groups = {"first"}, priority = 2)
     public void thee() {
-
     }
 
     @Test(groups = {"second"}, priority = 6)
     public void four() {
-
     }
 
     @Test(groups = {"first"}, priority = 3)
     public void five() {
-
     }
 
     @Test(groups = {"second"}, priority = 7)

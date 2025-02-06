@@ -1,39 +1,35 @@
-package lesson16.task2;
+package lesson16.task3;
+
 import org.testng.annotations.Test;
 import static org.testng.AssertJUnit.assertTrue;
 
-public class ParallelClass1 {
+public class ParallelClass2 {
     @Test
-    public void prallel1() throws InterruptedException  {
+    public void prallel6() throws InterruptedException  {
         Thread.sleep(2000);
         assertTrue(true);
     }
     @Test
-    public void prallel2() throws InterruptedException  {
+    public void prallel7() throws InterruptedException  {
         Thread.sleep(2000);
         assertTrue(true);
     }
     @Test
-    public void prallel3() throws InterruptedException  {
-        Thread.sleep(2000);
-        assertTrue(true);
-    }
-
-    @Test
-    public void prallel4() throws InterruptedException  {
+    public void prallel8() throws InterruptedException  {
         Thread.sleep(2000);
         assertTrue(true);
     }
 
     @Test
-    public void prallel5() throws InterruptedException  {
+    public void prallel9() throws InterruptedException  {
+        Thread.sleep(2000);
+        assertTrue(true);
+    }
+
+    @Test
+    public void prallel10() throws InterruptedException  {
         Thread.sleep(2000);
         assertTrue(true);
     }
 }
-
-
-
-
-
-
+//task3_2

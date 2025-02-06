@@ -1,14 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<suite name="AllTests Suite">
 
+<suite name="AllTests Suite">
     <test name="first">
         <groups>
             <run>
+                <!--task2-->
                 <include name = "first"/>
             </run>
         </groups>
         <classes>
-            <class name="lesson16.task1.Groups"/>
+            <class name="lesson16.task2.Groups"/>
         </classes>
     </test>
 
@@ -19,7 +20,7 @@
             </run>
         </groups>
         <classes>
-            <class name="lesson16.task1.Groups"/>
+            <class name="lesson16.task2.Groups"/>
         </classes>
     </test>
 
