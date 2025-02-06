@@ -1,0 +1,14 @@
+<suite name="Parallel" parallel="tests" thread-count="2">
+    <test name="class1">
+        <classes>
+<!--            task3-->
+            <class name="lesson16.task3.ParallelClass1"/>
+        </classes>
+    </test>
+
+    <test name="class2">
+        <classes>
+            <class name="lesson16.task3.ParallelClass2"/>
+        </classes>
+    </test>
+</suite>
