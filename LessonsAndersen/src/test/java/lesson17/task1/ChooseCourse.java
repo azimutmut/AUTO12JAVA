@@ -15,13 +15,10 @@ import driver.DriverSetUp;
 import java.time.Duration;
 
 public class ChooseCourse {
-
     public static class Locators{
         public static final By techStack = By.xpath("//div[text()='AQA Practice']");
         private static final By selectCountry =  By.xpath("//select[@data-lol='SelectCountry']");
-
     }
-
     static WebDriver driver;
     static WebDriverWait wait;
 
@@ -30,12 +27,10 @@ public class ChooseCourse {
         driver = DriverSetUp.driverInit();
         wait =  new WebDriverWait(driver, Duration.ofSeconds(10));
     }
-
     @AfterMethod
     public void close(){
         driver.quit();
     }
-
     @Test
     public void loginPage() throws InterruptedException {
         driver.get(URL.LOGIN.getUrl());

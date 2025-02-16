@@ -15,7 +15,6 @@ import org.testng.annotations.AfterTest;
 import static org.testng.Assert.assertTrue;
 import org.testng.annotations.Test;
 import java.time.Duration;
-
 public class Alerts {
     private static class Locators {
         private static final By btn = By.id("AlertButton");
@@ -25,7 +24,6 @@ public class Alerts {
         private static final By doubleClickLocator = By.xpath("//button[text()='Get Discount']");
         private static final By checkTextTest = By.xpath("//button[@data-test-id='PromptButton']");
     }
-
     static WebDriver driver;
     static WebDriverWait wait;
     static Actions actions;

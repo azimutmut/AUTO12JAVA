@@ -1,5 +1,4 @@
 package lesson17.task2;
-
 import driver.DriverSetUp;
 import driver.constants.URL;
 import lesson17.task1.ChooseCourse;
@@ -15,7 +14,6 @@ import org.testng.annotations.Test;
 import java.time.Duration;
 
 public class DragAndDrop {
-
     private static class Locators {
         private static final By manual1 = By.id("manual1");
         private static final By manual2 = By.id("manual2");
@@ -25,7 +23,6 @@ public class DragAndDrop {
         private static final By targetManual2 = By.id("target-manual2");
         private static final By targetAuto1 = By.id("target-auto1");
         private static final By targetAuto2 = By.id("target-auto2");
-
     }
 
     static WebDriver driver;
